@@ -1,0 +1,42 @@
+/*
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+*/
+
+body {
+  background: url(../images/fondo-mario.png) center center;
+  background-size: cover;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+paper-card {
+	width: 100%;
+    margin-bottom: 16px;
+}
+paper-card img {
+	float: left;
+	padding: 16px;
+}
+
+paper-card .card-content img{
+	float: left;
+	width: 72px;
+}
+
+paper-card .card-actions {
+	clear: both;
+	padding: 16px;
+}
+paper-card .botones {
+	float: right;
+}
+
+paper-button.green {
+	background-color: #388e3c;
+	color: #fff !important;
+}
